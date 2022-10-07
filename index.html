@@ -1,0 +1,254 @@
+<!doctype html>
+<html>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+
+
+	<title>Sorting Algorithm</title>
+
+
+	<link href="css/slides.min.css?41331" rel="stylesheet" type="text/css">
+
+
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+
+
+	<script src="js/slides.min.js?41331" type="text/javascript"></script>
+
+
+	<link rel="stylesheet" as="font" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,600,700|Material+Icons" />
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#swapSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#swap").offset().top},
+				'slow';
+			}
+		});
+		});
+		
+		$(document).ready(function(){
+		$("#bubbleSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#bubble").offset().top},
+				'slow';
+			}
+		});
+		});
+		
+		$(document).ready(function(){
+		$("#selectionSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#selection").offset().top},
+				'slow';
+			}
+		});
+		});
+		
+		
+		$(document).ready(function(){
+		$("#enumerationSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#enumeration").offset().top},
+				'slow';
+			}
+		});
+		});
+		$(document).ready(function(){
+		$("#humanSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#human").offset().top},
+				'slow';
+			}
+		});
+		});
+	</script>
+	
+</head>
+
+<body class="slides chain simplifiedMobile animated">
+
+
+
+	<nav class="side line ">
+		<div class="navigation">
+			<ul></ul>
+		</div>
+	</nav>
+
+
+	<nav class="panel top">
+		<div class="sections desktop">
+			<div class="left"><a href="#" title="Menu">
+<svg viewbox="0 0 100 60" xmlns="http://www.w3.org/2000/svg">
+
+	  <p>Sorting Algorithms</p>
+	     
+	
+</svg>
+<svg height="30" width="200" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <a xlink:href="https://www.w3schools.com/graphics/" target="_blank">
+
+  </a>
+</svg></a></div>
+			<div class="right">
+				<ul class="menu trim">
+
+				</ul>
+			</div>
+		</div>
+		<div class="sections compact hidden">
+			<div class="left"><a href="#" title="Slides Framework"><svg style="width:82px;height:24px">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#logo"></use>
+					</svg></a></div>
+			<div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg>
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu"></use>
+					</svg></span></div>
+		</div>
+	</nav>
+
+
+	<section id = "menu" class="slide fade-6 kenBurns">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+					<div class="fix-12-12">
+						 <a href="#swap" class="button blue gradient ae-7 fromCenter" id="swapSort"name="button">Swap Sort </a>
+						<a href="#bubble" class="button blue gradient ae-7 fromCenter" id="bubbleSort"name="button">Bubble Sort </a>
+						<a href="#selection" class="button blue gradient ae-7 fromCenter" id="selectionSort"name="button">Selection Sort </a>
+						<a href="#enumeration" class="button blue gradient ae-7 fromCenter" id="enumerationSort"name="button">Enumeration Sort </a>
+						<a href="#human" class="button blue gradient ae-7 fromCenter" id="humanSort"name="button">Human Sort </a>
+						</form>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/550656.jpg)"></div>
+	</section>
+
+
+
+	<section id = "swap" class="slide fade-6 kenBurns fromLeft">
+		<div class="content">
+			<div class="container">
+				<div class="fix-5-12 left" style="margin-top:250px">
+							<h1  class="ae-1">Swap Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Swap sort also known as Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they
+									are in the wrong order. The pass through the list is repeated until the list is sorted.</span></p>
+						</div>
+						<div class="wrap" >
+
+						<div style="margin-left:-200px" >
+							<embed src="swf/swapSort.swf" quality="high"  width="600" height="300" > </embed>
+						</div>
+	
+					
+				</div>
+			</div>
+		
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/line.jpg)"></div>
+	</section>
+
+
+
+	<section id = "bubble" class="slide fade-6 kenBurns fromLeft">
+		<div class="content">
+			<div class="container">
+				<div class="fix-5-12 left" style="margin-top:250px">
+							<h1  class="ae-1">Bubble Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
+							The pass through the list is repeated until the list issorted.</span></p>
+						</div>
+						<div class="wrap" >
+
+						<div style="margin-left:-200px" >
+							<embed src="swf/bubbleSort.swf" quality="high"  width="600" height="300" > </embed>
+						</div>
+	
+					
+				</div>
+			</div>
+		
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/bub.jpg)"></div>
+	</section>
+
+
+	<section id = "selection" class="slide fade-6 kenBurns fromLeft">
+		<div class="content">
+			<div class="container">
+				<div class="fix-5-12 left" style="margin-top:250px">
+							<h1  class="ae-1">Selection Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Selection sort is a simple sorting algorithm. This sorting algorithm is an in-place comparison-based algorithm in which the list is divided into two parts, the sorted part at the left end and the unsorted part at the right end. Initially, the sorted part is empty and the unsorted part is the entire list.span></p>
+						</div>
+						<div class="wrap" >
+
+						<div style="margin-left:-200px" >
+							<embed src="swf/SelectionSort.swf" quality="high"  width="600" height="300" > </embed>
+						</div>
+	 
+					
+				</div>
+			</div>
+		
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/8.jpg)"></div>
+	</section>
+
+		
+
+
+
+	<section id = "enumeration" class="slide fade-6 kenBurns fromLeft">
+		<div class="content">
+			<div class="container">
+				<div class="fix-5-12 left" style="margin-top:250px">
+							<h1  class="ae-1">Enumeration Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Enumeration sort is a method of arranging all the elements in a list by finding the final position of each element in a sorted list. It is done by comparing each element with all other elements and finding the number of elements having smaller value.</span></p>
+						</div>	
+						<div class="wrap" >
+
+						<div style="margin-left:-200px" >
+							<embed src="swf/enumerateSort.swf" quality="high"  width="600" height="300" > </embed>
+						</div>
+	 
+					
+				</div>
+			</div>
+		
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/5.jpg)"></div>
+	</section>
+	
+
+
+
+	<section id = "human" class="slide fade-6 kenBurns fromLeft">
+		<div class="content">
+			<div class="container">
+				<div class="fix-5-12 left" style="margin-top:250px">
+							<h1  class="ae-1">Human Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Quickest and most efficient way of sorting. I present you, "Human Sort".</span></p>
+						</div>	
+						<div class="wrap" >
+
+						<div style="margin-left:-200px" >
+							<embed src="swf/humanSort.swf" quality="high"  width="600" height="300" > </embed>
+						</div>
+	 
+					
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/5.jpg)"></div>
+	</section>
+	
+	
+
+</body>
+
+</html>

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0063)file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#swap -->
+<html class="desktop chrome windows page-ready page-loaded"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, viewport-fit=cover">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+
+	<!-- Page Title -->
+	<title>Sorting Algorithm</title>
+
+	<!-- Compressed Styles -->
+	<link href="./Sorting Algorithm_files/slides.min.css" rel="stylesheet" type="text/css">
+
+	<!-- Custom Styles -->
+	<!-- <link href="css/custom.css" rel="stylesheet" type="text/css"> -->
+
+	<!-- jQuery 3.3.1 -->
+	<script src="./Sorting Algorithm_files/jquery.min.js.download" type="text/javascript"></script>
+
+	<!-- Compressed Scripts -->
+	<script src="./Sorting Algorithm_files/slides.min.js.download" type="text/javascript"></script>
+
+	<!-- Custom Scripts -->
+	<!-- <script src="js/custom.js" type="text/javascript"></script> -->
+
+	<!-- Fonts and Material Icons -->
+	<link rel="stylesheet" as="font" href="./Sorting Algorithm_files/css">
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$("#swapSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#swap").offset().top},
+				'slow';
+			}
+		});
+		});
+		
+		$(document).ready(function(){
+		$("#bubbleSort").click(function(){
+			$('html,body').animate({
+				scrollTop:$("#bubble").offset().top},
+				'slow';
+			}
+		});
+		});
+	</script>
+	
+</head>
+
+<body class="slides chain simplifiedMobile animated stage-2" style="">
+
+	<!-- SVG Library -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+		<symbol id="logo" viewBox="0 0 106 31" <title="">Slides Framework
+			<path d="M17.413 14.04c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52zm2.222 15.96h6.64v-29.6h-6.64v29.6zm9.662-24.56h6.64v-5.04h-6.64v5.04zm0 24.56h6.64v-22.2h-6.64v22.2zm32.782-29.6h-6.64v9.28c-.72-.72-2.6-2.64-6.52-2.64-5.64 0-11 4.28-11 11.8 0 6.68 4.4 11.88 11.12 11.88 4.48 0 6.08-2.2 6.72-3.12v2.4h6.32v-29.6zm-17.52 18.4c0-2.56 1.8-5.56 5.64-5.56 1.56 0 2.96.56 3.96 1.56 1 .96 1.64 2.32 1.64 3.92.08 1.64-.52 3.08-1.56 4.12s-2.52 1.68-4.12 1.68c-3.12 0-5.56-2.28-5.56-5.68v-.04zm42.502 2.4c.52-4.08-.32-7.64-3.12-10.64-2.08-2.2-5-3.52-8.4-3.52-6.76 0-11.64 5.72-11.64 11.92 0 6.6 5.4 11.76 11.76 11.76 2.28 0 4.48-.68 6.32-2 1.88-1.28 3.44-3.2 4.52-5.68h-6.8c-.8 1.16-1.92 2.08-4.04 2.08-2.6 0-4.84-1.56-5.12-3.92h16.52zm-16.44-5.04c.16-1.04 1.52-3.52 4.96-3.52s4.8 2.48 4.96 3.52h-9.92zm34.502-2.12c-.56-5.84-5.6-7-8.52-7-4.6 0-8.6 2.92-8.6 7.52 0 3 2.4 4.88 5.28 5.8 4.24 1.64 5.88 1.84 5.88 3.36 0 1.08-1.2 1.72-2.32 1.72-.28 0-2.24 0-2.52-2.04h-6.6c.6 5.84 5.68 7.36 9.04 7.36 4.92 0 9.04-2.88 9.04-7.76 0-4.8-4-5.92-7.76-6.96-1.76-.52-3.4-1.2-3.4-2.2 0-.6.48-1.48 1.88-1.48 1.96 0 2.04 1.2 2.08 1.68h6.52z"></path>
+		</symbol>
+
+	</svg>
+
+	<!-- Navigation -->
+	<nav class="side">
+		<div class="navigation">
+			<ul><li class=""></li><li class="selected"></li><li class=""></li><li class=""></li><li></li><li></li></ul>
+		</div>
+	</nav>
+
+	<!-- Panel Top #08 -->
+	<nav class="panel top">
+		<div class="sections desktop">
+			<div class="left"><a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#" title="Slides Framework"><svg style="width:82px;height:24px">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#logo"></use>
+					</svg></a></div>
+			<div class="right">
+				<ul class="menu trim">
+					<li><a href="http://facebook.com/designmodo" target="_blank"><svg>
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#facebook"></use>
+							</svg></a></li>
+					<li><a href="http://twitter.com/designmodo" target="_blank"><svg>
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#twitter"></use>
+							</svg></a></li>
+					<li class="cropRight"><a href="http://instagram.com/designmodo" class="trimRight" target="_blank"><svg>
+								<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#instagram"></use>
+							</svg></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="sections compact hidden">
+			<div class="left"><a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#" title="Slides Framework"><svg style="width:82px;height:24px">
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#logo"></use>
+					</svg></a></div>
+			<div class="right"><span class="button actionButton sidebarTrigger" data-sidebar-id="1"><svg>
+						<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#menu"></use>
+					</svg></span></div>
+		</div>
+	</nav>
+
+	<!-- Sidebar -->
+	<nav class="sidebar" data-sidebar-id="1">
+		<div class="close"><svg>
+				<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#close"></use>
+			</svg></div>
+		<div class="content">
+			<a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#" class="logo"><svg width="37" height="30">
+					<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#logo-icon"></use>
+				</svg></a>
+
+			<ul class="social opacity-8">
+				<li><a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#"><svg>
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#facebook"></use>
+						</svg></a></li>
+				<li><a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#"><svg>
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#twitter"></use>
+						</svg></a></li>
+				<li><a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#"><svg>
+							<use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#instagram"></use>
+						</svg></a></li>
+			</ul>
+		</div>
+	</nav>
+
+
+
+
+	<!-- Slide 1 (#09) -->
+	<section class="slide fade-6 kenBurns before">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+					<div class="fix-12-12">
+						 <a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#swap" class="button blue gradient ae-7 fromCenter" id="swapSort" name="button">Swap Sort </a>
+						<a href="file:///C:/Users/Darwin/Downloads/Kineme/Kineme/index.html#bubble" class="button blue gradient ae-7 fromCenter" id="bubbleSort" name="button">Bubble Sort </a>
+						<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Selection Sort</button>
+						<div class="fix-3-12">
+						</div>
+						<button type="submit" class="button blue gradient ae-7 fromCenter" name="button">Insertion Sort</button>
+						<button type="submit" class="button blue gradient ae-7 fromCenter" name="button">Enumeration Sort</button>
+						
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/550656.jpg)"></div>
+	</section>
+
+
+	<!-- Slide 2 (#15) -->
+	<section id="swap" class="slide fade-6 kenBurns fromLeft selected active animate">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+
+					<div class="fix-12-12">
+						<div class="fix-7-12 left toRight">
+							<h1 class="ae-1 done">Swap Sort</h1>
+							<p class="ae-2 done"><span class="opacity-8">Swap sort also known as Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they
+									are in the wrong order. The pass through the list is repeated until the list is sorted.</span></p>
+
+
+						<button type="button" class="button blue gradient ae-7 fromCenter done" name="button">Randomize </button>
+						<button type="button" class="button blue gradient ae-7 fromCenter done" name="button">Sort</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/5.jpg)"></div>
+	</section>
+
+	<!-- Slide 3 (#14) -->
+	<section id="bubble" class="slide fade-6 kenBurns fromRight after">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+
+					<div class="fix-12-12">
+						<div class="fix-6-12 left toLeft">
+							<h1 class="ae-1">Bubble Sort</h1>
+							<p class="ae-2"><span class="opacity-8">Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order.
+							The pass through the list is repeated until the list issorted.</span></p>
+							<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Randomize </button>
+							<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Sort</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+		<div class="background" style="background-image:url(assets/img/background/10.jpg)"></div>
+	</section>
+
+	<!-- Slide 4 (#89) -->
+	<section class="slide fade-6 kenBurns after">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+
+					<div class="fix-12-12">
+						<ul class="flex left">
+							<li class="col-6-12 fromBottomLeft">
+								<h1 class="ae-2">Selection Sort</h1>
+								<div class="ae-3">
+									<p class="opacity-8">The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a
+										given array. In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.</p>
+										<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Randomize </button>
+										<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Sort</button>
+								</div>
+							</li>
+							<li class="col-1-12">&nbsp;</li>
+							<li class="col-5-12 bottom">
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/8.jpg)"></div>
+	</section>
+
+
+
+
+	<!-- Slide 5 (#85) -->
+	<section class="slide fade-6 kenBurns after">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+
+					<div class="fix-7-12">
+						<h1 class="ae-1">Insertion Sort</h1>
+						<div class="ae-3">
+							<p class="opacity-8">Insertion sort is a simple sorting algorithm that builds the final sorted array one item at a time. It is much less efficient on large lists than more advanced algorithms such as quicksort, heapsort, or merge sort.
+							</p>
+							<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Randomize </button>
+							<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Sort</button>
+						</div>
+						<ul class="grid grid-85 equal margin-top-5 ae-2 fromCenter" data-equal-collapse-width="767">
+						</ul>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/9.jpg)"></div>
+	</section>
+
+	<!-- Slide 6 (#95) -->
+	<section class="slide fade-6 kenBurns after">
+		<div class="content">
+			<div class="container">
+				<div class="wrap">
+
+					<div class="fix-6-12">
+						<h1 class="huge ae-1 margin-bottom-2">Enumeration Sort</h1>
+						<p class="hero ae-2 margin-bottom-3"><span class="opacity-8">Enumeration sort is a method of arranging all the elements in a list by finding the final position of each element in a sorted list. It is done by comparing each element with
+						all other elements and finding the number of elements having smaller value.</span></p>
+						<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Randomize </button>
+						<button type="button" class="button blue gradient ae-7 fromCenter" name="button">Sort</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="background" style="background-image:url(assets/img/background/11.png)"></div>
+	</section>
+
+
+
+</body></html>
